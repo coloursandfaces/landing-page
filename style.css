@@ -61,7 +61,7 @@ ul {
 }
 
 .message{
-    border-radius: 25px;
+    border-radius: 15px;
     width:100px;
     height:25px;
     background-color: #ad9440;
@@ -73,8 +73,8 @@ ul {
     display:flex;
     width:400px;
     height:auto;
-    border: 5px solid #ad9440;
-    border-radius: 25px;
+    border: 3px solid #ad9440;
+    border-radius: 10px;
 }
 
 .third {
@@ -102,7 +102,7 @@ ul {
 .picture {
     width: 200px;
     height: "auto";
-    border: 5px solid #ad9440;
+    border: 3px solid #ad9440;
     border-radius: 25px;
 }
 
@@ -139,5 +139,49 @@ ul {
     justify-content: center;
     background-color: #e5e7eb;
     margin-top:32px;
+}
 
+.fifth {
+    display:flex;
+    margin: 64px 256px;
+    background-color: #3882f6;
+    align-items:center;
+    height:auto; 
+    border: 3px solid white;
+    border-radius:10px;
+    justify-content: space-between;
+    padding:36px 128px;
+}
+
+.lines {
+    display:flex;
+    flex-direction:column;
+}
+
+.line1 {
+    font-size:30px;
+    color: white;
+}
+
+.line2 {
+    font-size:12px;
+    color:#e5e7eb;
+}
+
+.sign-up {
+    font-size: 24px;
+    padding:6px 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footer {
+    display:flex;
+    height:60px;
+    background-color: #4059ad;
+    justify-content: center;
+    align-items:center;
+    color: #e5e7eb;
+    gap:6px;
 }
