@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    background: skyblue;
+    display:flex;
+    flex-direction: column;
+    padding: 16px 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-line {
+    display:flex;
+    height:72px;
+    justify-content: space-between;
+    margin:0px;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.secondary {
+    display:flex;
+    justify-content: space-between;
+    padding: 100px;
+    background: skyblue;
+    gap: 32px;
+}
+
+.secondary-text {
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.message{
+    border-radius: 25px;
+    border-color: navajowhite;
+    width:100px;
+    height:25px;
+    background-color: navajowhite;
+}
